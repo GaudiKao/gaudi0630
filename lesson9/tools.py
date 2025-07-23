@@ -1,5 +1,7 @@
 import random
 
+user_name = "Robert" #定義常數
+
 def play_game():
     min = 1
     max = 100
@@ -27,3 +29,6 @@ def play_game():
             
         else:
             print("請輸入提示範圍內的數字")
+
+class Empty(): #創class
+    pass

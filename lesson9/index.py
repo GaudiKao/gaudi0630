@@ -1,4 +1,7 @@
 import tools
+#from tools import play_game,Empty(class)
+#可用from ... import ...讀取指定的function和class
+
 
 def main():
     try:
@@ -10,7 +13,7 @@ def main():
             if is_continue == "n":
                 break
             
-        print(f"您共玩了{play_count}次")
+        print(f"{tools.use_name}共玩了{play_count}次") #把tools的常數帶進來
         print("遊戲結束")
     except ValueError:
         print("格式錯誤")
